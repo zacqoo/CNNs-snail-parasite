@@ -20,9 +20,11 @@ establish a single CNN and train end-to-end directly from images with only pixel
 algorithm, we are able to classify images of 4 snail categories with 99.64% accuracy and images of 13 parasite categories with 95.24%
 accuracy, which are comparable to the performance of human experts. The trained algorithm can be deployed to mobile devices for
 the use of local field technicians, which is expected to significantly improve the effectiveness of the control of infectious snails and schistosomiasis in the field.
-Draft: https://drive.google.com/file/d/1CSF_nCwmDLm4gtjFMd206YODOpez2M2o/view
 
 Links:
+The Program for Disease Ecology, Health and the Environment
 http://www.theupstreamalliance.org/
+
+Prawn vs. Snail: Nature’s Role in Fighting Disease
 https://woods.stanford.edu/news-events/news/prawn-vs-snail-natures-role-fighting-disease
 
