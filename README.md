@@ -6,7 +6,8 @@ The script is in Python, building CNNs and transfer learning (with VGG16), using
 
 Note that the image dataset is the property of De Leo Lab of Hopkins Marine Station at Stanford University. The images will be released soon.
 
-Abstract of manuscript
+Abstract of manuscript:
+
 Schistosomiasis is a debilitating parasitic disease infecting over 250 million people with nearly 800 million people at risk worldwide,
 primarily in Sub-Saharan Africa. Freshwater snail populations are the intermediate hosts of this disease, which is particularly prevalent
 in developing countries where dams and water projects have greatly expanded freshwater habitats for snails. In our study sites in the
