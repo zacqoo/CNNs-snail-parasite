@@ -3,6 +3,7 @@
 Transfer learning using VGG16 and convolutional neural network (CNNs) to classify images of freshwater snails and parasites. This automated detection approach is expected to make infectious disease control more efficiently in the field.
 
 The script is in Python, building CNNs and transfer learning (with VGG16), using Keras package with Tensorflow backened.
+--> the scripts here can be used for different image classification tasks.
 
 Note that the image dataset is the property of De Leo Lab of Hopkins Marine Station at Stanford University. The images will be released soon.
 
