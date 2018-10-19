@@ -13,7 +13,7 @@ Main script: cnn_transfer_learning_2.py
 - [TensorFlow 1.2](https://www.tensorflow.org/)
 
 ## Note
-Note that the image dataset is the property of De Leo Lab of Hopkins Marine Station at Stanford University. The images will be released soon.
+Note that the image dataset is the property of De Leo Lab of Hopkins Marine Station at Stanford University. The images will be released with the publication in few months.
 
 ## Relevant links
 Links:
