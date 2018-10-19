@@ -51,49 +51,49 @@ model = applications.VGG16(include_top=False, weights='imagenet')
 # ------------------------------------------------------------------------------  
 # create the data generator for training images, 
 # and run them on the VGG16 model to save the bottleneck features for training
-train_datagen = ImageDataGenerator(rescale= 1./255,
-                                   shear_range = 0.2,
-                                   zoom_range = 0.2,
-                                   #rotation_range=30, 
-                                   #width_shift_range=0.2, 
-                                   #height_shift_range=0.2, 
-                                   horizontal_flip = False)
+#train_datagen = ImageDataGenerator(rescale= 1./255,
+#                                   shear_range = 0.2,
+#                                   zoom_range = 0.2,
+#                                   #rotation_range=30, 
+#                                   #width_shift_range=0.2, 
+#                                   #height_shift_range=0.2, 
+#                                   horizontal_flip = False)
    
-generator = train_datagen.flow_from_directory(  
-    train_data_dir,  
-    target_size=(img_width, img_height),  
-    batch_size=batch_size,  
-    class_mode=None,  
-    shuffle=False)  
+#generator = train_datagen.flow_from_directory(  
+#    train_data_dir,  
+#    target_size=(img_width, img_height),  
+#    batch_size=batch_size,  
+#    class_mode=None,  
+#    shuffle=False)  
   
-nb_train_samples = len(generator.filenames)  
-num_classes = len(generator.class_indices)  
+#nb_train_samples = len(generator.filenames)  
+#num_classes = len(generator.class_indices)  
   
-predict_size_train = int(math.ceil(nb_train_samples / batch_size))  
+#predict_size_train = int(math.ceil(nb_train_samples / batch_size))  
   
-bottleneck_features_train = model.predict_generator(  
-    generator, predict_size_train)  
+#bottleneck_features_train = model.predict_generator(  
+#    generator, predict_size_train)  
   
-np.save('bottleneck_features_train.npy', bottleneck_features_train)
+#np.save('bottleneck_features_train.npy', bottleneck_features_train)
 # ------------------------------------------------------------------------------  
 # do the same for the validation data
-datagen = ImageDataGenerator(rescale= 1./255) 
+#datagen = ImageDataGenerator(rescale= 1./255) 
 
-generator = datagen.flow_from_directory(  
-     validation_data_dir,  
-     target_size=(img_width, img_height),  
-     batch_size=batch_size,  
-     class_mode=None,  
-     shuffle=False)  
+#generator = datagen.flow_from_directory(  
+#     validation_data_dir,  
+#     target_size=(img_width, img_height),  
+#     batch_size=batch_size,  
+#     class_mode=None,  
+#     shuffle=False)  
    
-nb_validation_samples = len(generator.filenames)  
+#nb_validation_samples = len(generator.filenames)  
   
-predict_size_validation = int(math.ceil(nb_validation_samples / batch_size))  
+#predict_size_validation = int(math.ceil(nb_validation_samples / batch_size))  
   
-bottleneck_features_validation = model.predict_generator(  
-    generator, predict_size_validation)  
+#bottleneck_features_validation = model.predict_generator(  
+#    generator, predict_size_validation)  
   
-np.save('bottleneck_features_validation.npy', bottleneck_features_validation)
+#np.save('bottleneck_features_validation.npy', bottleneck_features_validation)
 # ------------------------------------------------------------------------------  
 # to train the top model, need the class labels for each of the training/validation samples 
 # also need to convert the labels to categorical vectors
