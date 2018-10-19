@@ -17,7 +17,7 @@ Note that the image dataset is the property of De Leo Lab of Hopkins Marine Stat
 
 ## Relevant links
 Links:
-[The Program for Disease Ecology, Health and the Environment](http://www.theupstreamalliance.org/)
+* [The Program for Disease Ecology, Health and the Environment](http://www.theupstreamalliance.org/)
 
-[Prawn vs. Snail: Nature’s Role in Fighting Disease](https://woods.stanford.edu/news-events/news/prawn-vs-snail-natures-role-fighting-disease)
+* [Prawn vs. Snail: Nature’s Role in Fighting Disease](https://woods.stanford.edu/news-events/news/prawn-vs-snail-natures-role-fighting-disease)
 
