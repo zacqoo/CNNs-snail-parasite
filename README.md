@@ -17,6 +17,8 @@ Note that the image dataset is the property of De Leo Lab of Hopkins Marine Stat
 
 ![image_samples.png](image_samples.png)
 
+Image examples for snail and parasite classes. For snail classes, A-1 and A-2: Biomphalaria. B-1 and B-2: Bulinus. C-1 and C-2: Lymnaea. D-1 and D-2: Melanoides. For parasite classes, HS: Human-schisto, NHS1: Nonhuman- schisto forktail type I, NHS2: Nonhuman- schisto forktail type II, AM: Amphistome, BO: Bovis, EC: Echino, GY: Gymno, ME: Metacerc, PP: Parapleurolophocercous, PT: Parthenitae, XI-Xiphidiocercariae.
+
 ## Relevant links
 Links:
 - [The Program for Disease Ecology, Health and the Environment](http://www.theupstreamalliance.org/)
