@@ -15,6 +15,8 @@ Main script: cnn_transfer_learning_2.py
 ## Note
 Note that the image dataset is the property of De Leo Lab of Hopkins Marine Station at Stanford University. The images will be released with the publication in few months.
 
+![image_samples.png](image_samples.png)
+
 ## Relevant links
 Links:
 - [The Program for Disease Ecology, Health and the Environment](http://www.theupstreamalliance.org/)
