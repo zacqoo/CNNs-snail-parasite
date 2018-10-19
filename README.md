@@ -1,6 +1,8 @@
 # CNNs-snail-parasite
+CNNs, transfer learning, VGG16 pre-trained model, Keras, TensorFlow backened, TF serving for production/ deployment
 
-Transfer learning using VGG16 and convolutional neural networks (CNNs) to classify images of freshwater snails and parasites. This automated detection approach is expected to make infectious disease control more efficiently in the field.
+## Introduction
+Transfer learning using VGG16 and convolutional neural networks (CNNs) to classify images of freshwater snails and parasites. This automated detection approach is expected to make infectious disease control more efficiently in the field. This is also the FIRST deep-learning-powered image classifer for parasite worms of Schistosomiasis.
 
 ## Code
 The script is in Python, building CNNs and transfer learning (with VGG16), using Keras package with Tensorflow backened. Augmenting in training data is also built in the code (to overcome the unbalanced datasets).
@@ -8,9 +10,13 @@ The script is in Python, building CNNs and transfer learning (with VGG16), using
 Main script: cnn_transfer_learning_2.py
 --> the scripts here can be used for different image classification tasks.
 
+Deployment script: tf_serving_index.py
+--> built with TensorFlow serving
+
 ## Requirements
 - [Anaconda / Python 3.5](https://www.continuum.io/downloads)
 - [TensorFlow 1.2](https://www.tensorflow.org/)
+- [TensorFlow Serving](https://github.com/tensorflow/serving)
 
 ## Note
 Note that the image dataset is the property of De Leo Lab of Hopkins Marine Station at Stanford University. The images will be released with the publication in few months.
