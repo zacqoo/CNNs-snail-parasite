@@ -13,6 +13,10 @@ Main script: cnn_transfer_learning_2.py
 Deployment script: tf_serving_index.py
 --> built with TensorFlow serving
 
+```angular2html
+python tf_serving_index.py
+```
+
 ## Requirements
 - [Anaconda / Python 3.5](https://www.continuum.io/downloads)
 - [TensorFlow 1.2](https://www.tensorflow.org/)
